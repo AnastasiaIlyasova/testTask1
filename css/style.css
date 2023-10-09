@@ -1,0 +1,105 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	line-height: 1;
+	font-size: 16px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: 'Times New Roman', serif;
+	font-weight: 400;
+}
+img{vertical-align: top;}
+/*--------------------*/
+.element{
+	width: 303px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -151px;
+	margin-top: -103px;
+	box-shadow: 0 5px 24px 0 rgba(0, 0, 0, 0.10);
+}
+.element-header{
+	background-color: rgba(128,128,0,0.6);
+	color: #FFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+}
+.icons{
+	height: 32px;
+	width: 32px;
+	background-image: url("../img/s-icon.png");
+}
+.header-icon{
+	background-position: 86px 0;
+	background-color: rgba(117,117,0,0.6);
+}
+.header-title{
+	padding-left: 18px;
+}
+.header-num{
+	padding-right: 14px;
+}
+.element-main{
+	padding: 25px 40px 0 20px;
+}
+.main-subtitle{
+	font-weight: 800;
+}
+.element-main >*:not(:last-child){
+	padding-bottom: 10px;
+}
+.main-info{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.info-year{
+	padding-left: 9px;
+}
+.info-year_icon{
+	background-position: 0 -5px;
+	height: 18px;
+	width: 19px;
+}
+.flex-center{
+	display: flex;
+	align-items: center;
+}
+.info-name_icon{
+	background-position: 53px -5px;
+	height: 23px;
+	width: 24px;
+}
+.info-name{
+	font-weight: 800;
+}
+.info-percent_icon{
+	background-position: -17px 0;
+	height: 23px;
+	width: 24px;
+}
+.info-percent{
+	padding-left: 5px;
+}
+.info-stuff{
+	background-position: -40px 0;
+	height: 23px;
+	width: 24px;
+}
+.element-footer{
+	background-position: 32px -5px;
+	height: 26px;
+	width: 28px;
+	float: right;
+}
